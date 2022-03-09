@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <style>
+            .mydark{
+                background-color: black;
+                color: white;
+           
+            }
+        </style>
+
+        <script>
+            function changemode(){
+                var mybody = document.body;
+                mybody.classList.toggle('mydark')
+            }
+        </script>
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <title>Zomato</title>
+        <link href="app.css" rel="stylesheet">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="coupon">
+            
+        <button style="border-radius: 50%; margin-left: 93%; margin-top: 1%; position: absolute; background-color: #ffffff;" onclick="closecoupon()">&times;</button>
+        <img src="image/Paytm Offer.png" height="400px" width="600px">
+        </div> 
+
+        <script>
+            window.onload="loadcoupon"()
+        </script>
+        
+        
+        
+            
+            <header>
+
+                <button style="margin-top: 2%; margin-left: 10%; position: absolute;" onclick="changemode()">Change Mode</button>
+                <h1 style="margin-top: 7%; margin-left: 40%; font-size: 75px;">Zomato</h1>
+                <div class="cont">
+                    <ul class="nav navbar-nav navbar-right" style="margin-top: -12%;">
+                        <li><a class="ln" href="">Log in</a></li>
+                        <li><a class="ln" href="">Sign up</a></li>
+                        
+                    </ul>
+                </div>
+            
+       
+                
+            </header>
+            
+            <div id="search">
+                
+                
+                
+
+                <div id="heading">
+                    Find The Best Restaurant Near You
+                </div>
+
+                <div class="dropdown">
+                    <select> 
+                        <option>Please Select City</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Pune</option>
+                    </select>
+                    
+                    </div>
+                    </div>
+            
+                
+                    
+                
+
+                    
+                    <form action="" class="navbar-form">
+                        <div class="form-group has-feedback">
+                             <input style="padding: 0% 7%; width: 550px;" type="text" placeholder="Search for restaurant, cuisine or a dish" class="form-control">
+                             <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                         </div>
+                     </form>
+                     
+                     
+                     
+                     
+                     
+
+                
+                    
+            
+
+                    
+                
+                
+            <div id="QuickSearch">
+                <span id="QuickHeading">
+                    QuickSearch
+
+                </span>
+                <span id="QuickSubHeading">
+                    Discover Restaurants By Meal  
+                </span>
+                <div id="maincontainer">
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/sacks.png" alt="Snacks">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="/listing/listing.html">BreakFast</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your BreakFast Meal
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/lunch.png" alt="Lunch">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="../Zomato/listing/listing.html">Lunch</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your Lunch Meal
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/nightlife.png" alt="Nightlife">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="../Zomato/listing/listing.html">Nightlife</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your Nightlife Club
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/drinks.png" alt="Drinks">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="../listing/listing.html">listing</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your Drinks Meal
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/dinner.png" alt="dinner">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="/listing/listing.html">dinner</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your dinner Meal
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                            <img src="image/sacks.png" alt="Snacks">
+                        </div>
+                        <div class="tilecomponent2">
+                            <div class="ComponentHeading">
+                                <a href="/listing/listing.html">BreakFast</a>
+                            </div>
+                            <div class="ComponentSubHeading">
+                                Enjoy Your BreakFast Meal
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                </div>
+
+            </div>     
+            
+            <div id="collhead">
+                <h1>Collections</h1>
+                <h4>Explore curated lists of top restaurants, cafes, pubs, and bars in Ahmedabad, based on trends</h4>
+            </div>
+            <div id="collections">
+
+
+
+                <div id="maincollection">
+                    <div class="tilecollection">
+                        <img src="image/open img.jpg">
+                        <h3>Newly Opened</h3>
+                        <h4>8 Places</h4>
+                    </div>
+                    <div class="tilecollection">
+                        <img src="image/Ahmedabad image.jpg">
+                        <h3>Best of Ahmedabad</h3>
+                        <h4>42 Places</h4>
+                    </div>
+                    <div class="tilecollection">
+                        <img src="image/Trending Food.jpg">
+                        <h3>Trending This Week</h3>
+                        <h4>30 Places</h4>
+                    </div>
+                    <div class="tilecollection">
+                        <img src="image/Romantic Restaurants.jpg">
+                        <h3>Most Romantic Restaurant</h3>
+                        <h4>14 Places</h4>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>COMPANY</h4>
+                            <ul>
+                                <li><a href="#">Who We Are</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Report Fraud</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Investor Relations</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer-col">
+                            <h4>FOR FOODIES</h4>
+                            <ul>
+                                <li><a href="#">Code of Conduct</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Blogger Help</a></li>
+                                <li><a href="#">Mobile Apps</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer-col">
+                            <h4>FOR RESTAURANTS</h4>
+                            <ul>
+                                <li><a href="#">Add Restaurant</a></li>
+                            </ul>
+                            <div class="footer-col1">
+                            <h4>FOR ENTERPRISES</h4>
+                            <ul>
+                            <li><a href="#">Zomato for Work</a></li>
+                            </ul>
+                        </div>
+                        </div>
+    
+                        <div class="footer-col">
+                            <h4>FOR YOU</h4>
+                            <ul>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+    
+            
+
+            
+            
+        
+        </div>
+    </body>
+</html>

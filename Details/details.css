@@ -1,0 +1,199 @@
+body{
+    margin: auto;
+
+}
+/* header start */
+header{
+    height: 60px;
+    background-color: #e09c83;
+}
+/* search start */
+#search{
+    height: 400px;
+    background-image: url('image/Food-Wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 475px;    
+}
+/* QuickSearch start */
+#QuickSearch{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+/* footer start */
+footer{
+    height: 200px;
+    background-color: #e09c83;       
+}
+.foot1{
+    width: 35%;
+    height: 120px;
+    float: left;
+    border-right: 2px solid white;
+}
+
+#icon{
+    float: left;
+    
+}
+#QuickHeading{
+    color: orange;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+
+}
+#QuickSubHeading{
+    line-height: 2;
+    color: gray;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.tilecomponent1{
+    width: 58%;
+    float: left;
+    height: 200px;
+
+}
+.tilecomponent1 > img{
+    height: 200px;
+    width: 100%;
+}
+.tilecomponent2{
+    width: 32%;
+    float: left;
+    height: 100px;
+    margin-left: 7%;
+    margin-top: 15%;
+
+}
+.tilecontainer{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+}
+.ComponentHeading > a{
+    font-size: 25px;
+    color: orange;
+}
+.ComponentSubHeading{
+    color: gray;
+}
+#social{
+    float: right;
+    
+}
+#mytext{
+    position: absolute;
+    
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: #e09c83;
+}
+
+#logo > span{
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;   
+}
+
+
+#maincontent{
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+   
+    
+}
+.imgdiv{
+    height: 400px;
+    width: 40%;
+    border: 3px groove gray;
+    float: left;
+}
+.imgdiv > img{
+    height: 400px;
+    width: 100%;
+}
+select{
+    height: 60px;
+    width: 35%;
+    font-size: 15px;
+    text-align: center;
+}
+#heading{
+    text-align: center;
+}
+.contentdiv{
+    height: 475px;
+    width: 55%;
+    
+    margin-left: 2%;
+    float: left;
+    margin-top: -2%;
+}
+.feature container{
+    width:100%;
+    display: inline-block;
+}
+.feature{
+    float:left;
+
+    
+}
+.imgIcon{
+    height:50px;
+    width:50px;
+    margin left: 5%;
+}
+
+
+
+.btn{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    color:white;
+    background-color:rgb(191, 236, 123)
+}
+.btn-checkout{
+    
+    
+}
+.btn-proceed{
+    
+}
+h2{
+    font-size: 35px;
+    color: green;
+}
+
+.restlist{
+    width: 50%;
+}
+.dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 24%;
+    margin-top: 20%;
+    position: absolute;
+    
+}

@@ -1,0 +1,185 @@
+body{
+    margin: auto;
+
+}
+/* header start */
+header{
+    height: 60px;
+    background-color:red;
+}
+/* search start */
+#search{
+    height: 400px;
+    background-image: url('image/Food-Wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 475px;    
+}
+/* QuickSearch start */
+#QuickSearch{
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+/* footer start */
+footer{
+    height: 200px;
+    background-color: #e09c83;
+    margin-top: 100%;
+    position: relative
+    
+         
+}
+.foot1{
+    width: 35%;
+    height: 120px;
+    float: left;
+    border-right: 2px solid white;
+    
+}
+
+#icon{
+    float: left;
+    
+}
+#login{
+   float: right;
+   margin-right: 10%;
+}
+#icon > h1{
+    color: white;
+}
+#heading{
+    color: darkblue;
+}
+#QuickHeading{
+    color: orange;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+
+}
+#QuickSubHeading{
+    line-height: 2;
+    color: gray;
+    font-size: 20px;
+    margin-left: 2%;
+
+}
+.tilecomponent1{
+    width: 58%;
+    float: left;
+    height: 200px;
+
+}
+.tilecomponent1 > img{
+    height: 275px;
+    width: 90%;
+}
+.tilecomponent2{
+    width: 32%;
+    float: left;
+    height: 100px;
+    margin-left: 7%;
+    margin-top: 15%;
+
+}
+.tilecontainer{
+    height: 275px;
+    width: 95%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 10px gray;
+}
+.ComponentHeading {
+    font-size: 25px;
+    color: darkblue;
+    
+}
+
+.ComponentSubHeading{
+    color: gray;
+}
+#social{
+    float: right;
+    
+}
+#mytext{
+    position: absolute;
+    
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size: 80px;
+    color: #e09c83;
+}
+
+#logo > span{
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;   
+}
+
+
+.maincontent{
+    height: 700px;
+    width: 75%;
+    margin-left: 13%;
+    
+}
+#filter{
+    height: 550px;
+    width: 22%;
+    box-shadow: 10px 20px 10px gray;
+    float: left;
+}
+#filter > h2{
+    margin-left: 13%;
+    color: darkblue;
+}
+#filter > h3{
+    margin-left: 13%;
+    color: darkblue;
+}
+select{
+    height: 25px;
+    width: 75%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 10%;
+}
+#heading{
+    text-align: center;
+}
+input{
+    margin-left: 12%;
+}
+#stripe{
+    height: 1800px;
+    width: 75%;
+    
+    margin-left: 2%;
+    float:left;
+    
+.restlist{
+    width: 50%;
+}
+.dropdown{
+    height: 60px;
+    width: 30%;
+    margin-left: 24%;
+    margin-top: 20%;
+    position: absolute;
+    
+}
