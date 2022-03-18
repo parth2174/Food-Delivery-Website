@@ -27,6 +27,47 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+
+        <button class="location" onClick="geolocation()">
+            Get Location
+        </button>
+        <p id="out" style="position: absolute;"></p>
+        <p id="weatherOut" style="position: absolute; margin-top: 5%; margin-left: 25%; color: #ffffff;"></p>
+        <script>
+            var x = document.getElementById("out");
+            var y = document.getElementById("weatherOut");
+            function geolocation(){
+                if(navigator.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition)
+                }else{
+                    x.innerText="Geo Not Supported"
+                }
+            }
+
+            function showPosition(data){
+                console.log(data)
+                
+                let latitude = data.coords.latitude;
+                let longitude = data.coords.longitude
+                const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+                // api calling
+                fetch(url,{method: 'GET'})
+                //return promise
+                .then((res) => res.json())
+                //return datatype
+                .then((data) => {
+                    let cityName = data.city.name
+                    let weather = `${data.list[0].temp.day} degree`
+                    let output = `${cityName} ${weather}`
+                    console.log(data)
+                    y.innerText = output;
+                })
+            }
+        </script>
+
+
+
+
         <div id="coupon">
             
         <button style="border-radius: 50%; margin-left: 93%; margin-top: 1%; position: absolute; background-color: #ffffff;" onclick="closecoupon()">&times;</button>
@@ -42,7 +83,7 @@
             
             <header>
 
-                <button style="margin-top: 2%; margin-left: 10%; position: absolute;" onclick="changemode()">Change Mode</button>
+                <button style="margin-top: 1%; margin-left: 1%; position: absolute;" onclick="changemode()">Change Mode</button>
                 <h1 style="margin-top: 7%; margin-left: 40%; font-size: 75px;">Zomato</h1>
                 <div class="cont">
                     <ul class="nav navbar-nav navbar-right" style="margin-top: -12%;">
